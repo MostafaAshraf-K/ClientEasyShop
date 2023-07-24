@@ -1,0 +1,70 @@
+.subscribe-section {
+  padding: 50px 0;
+  background-color: #e9eaec;
+  text-align: center;
+  height: 50vh;
+  overflow: hidden;
+}
+
+.subscribe-section .content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.subscribe-section h2 {
+  font-size: 2rem;
+  margin-bottom: 20px;
+}
+
+.subscribe-section p {
+  font-size: 1.5rem;
+  margin-bottom: 30px;
+}
+
+.subscribe-section .subscribe-form {
+  /* display: flex;
+  justify-content: center;
+  align-items: center; */
+  padding: 1rem;
+}
+.subscribe-section .subscribe-form .subscribe-btn {
+  color: #0b0c0c !important;
+  background-color: #e4b61a !important;
+  border: none !important;
+  margin: 1rem;
+}
+.subscribe-section .form-group {
+  margin-bottom: 20px;
+}
+
+.subscribe-section .form-control {
+  height: 50px;
+  font-size: 16px;
+}
+.subscribe-section input {
+  width: 400px;
+}
+@media only screen and (max-width: 1200px) {
+  /*Tablets [601px -> 1200px]*/
+}
+@media only screen and (max-width: 600px) {
+  /*Big smartphones [426px -> 600px]*/
+}
+@media only screen and (max-width: 425px) {
+  /*Small smartphones [325px -> 425px]*/
+
+  .subscribe-section h2 {
+    font-size: 1.6rem;
+    margin-bottom: 20px;
+  }
+
+  .subscribe-section p {
+    font-size: 1.1rem;
+    margin-bottom: 30px;
+  }
+  .subscribe-section input {
+    width: auto;
+  }
+}

@@ -1,0 +1,38 @@
+/* CategoryPage.css */
+
+/* .header {
+} */
+.category-section .category-buttons,
+.category-section .sort-by-dropdown {
+  display: flex;
+  align-items: center;
+}
+
+.category-section h2 {
+  margin-right: 10px;
+  width: 100%;
+  font-size: 1.7rem;
+}
+
+.category-section select {
+  font-size: 14px;
+  border-radius: 4px;
+  width: 40%;
+  margin: 0 0.5rem;
+}
+
+@media only screen and (max-width: 1200px) {
+  /*Tablets [601px -> 1200px]*/
+}
+@media only screen and (max-width: 600px) {
+  /*Big smartphones [426px -> 600px]*/
+  .category-section {
+    overflow-x: scroll;
+  }
+}
+@media only screen and (max-width: 425px) {
+  /*Small smartphones [325px -> 425px]*/
+  .category-section {
+    overflow-x: scroll;
+  }
+}

@@ -1,0 +1,8 @@
+/* .Marquee {
+} */
+
+.Marquee img {
+  height: 150px;
+  width: 200px;
+  margin-left: 1rem;
+}

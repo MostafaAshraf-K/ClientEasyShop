@@ -1,0 +1,32 @@
+.category-section {
+  position: relative;
+}
+
+.category-title {
+  margin-top: 20px;
+  padding: 1rem 0;
+}
+
+.category-item {
+  position: relative;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.category-item img {
+  width: 100%;
+  height: auto;
+  object-fit: contain;
+  object-position: center;
+  border-radius: 0.5rem;
+}
+
+.category-text {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  color: #ffffff;
+  padding: 10px;
+  font-weight: bold;
+}

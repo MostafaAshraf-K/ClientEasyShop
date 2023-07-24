@@ -1,0 +1,165 @@
+.slider {
+  /* transform: translateY(-60px); */
+  height: 100%;
+  width: 100%;
+}
+.slider-text {
+  position: absolute;
+  top: 50%;
+  left: 15%;
+  transform: translateY(-50%);
+  color: #fff;
+  width: 50%;
+  margin: auto;
+}
+
+.slider-text p {
+  width: 70%;
+  font-size: 1.4rem;
+}
+.slider-text h1 {
+  width: 50%;
+  font-size: 2rem;
+  margin: 2rem 0;
+}
+.slider .slider-text .shop-now-btn {
+  background-color: #fff !important;
+  color: #c79260;
+  text-decoration: none;
+  padding: 0.5rem 2rem;
+  border-radius: 2rem;
+  font-weight: bold;
+  font-size: 1.1rem;
+  /* width: fit-content; */
+}
+@media only screen and (max-width: 1200px) {
+  /*Tablets [601px -> 1200px]*/
+  .slider {
+    height: 100%;
+    width: 100%;
+  }
+
+  .slider-text {
+    position: absolute;
+    top: 60%;
+    left: 5%;
+    transform: translateY(-50%);
+    color: #fff;
+    width: 50%;
+    margin: auto;
+  }
+
+  .slider-text p {
+    width: 90%;
+    font-size: 1rem;
+    /* display: none; */
+  }
+  .slider-text h1 {
+    width: 90%;
+    font-size: 1rem;
+    margin: 0.5rem 0;
+  }
+  .slider .slider-text .shop-now-btn {
+    background-color: #fff !important;
+    color: #c79260;
+    text-decoration: none;
+    padding: 0.5rem;
+    border-radius: 2rem;
+    font-weight: bold;
+    font-size: 0.7rem;
+    /* width: fit-content; */
+  }
+}
+@media only screen and (max-width: 600px) {
+  /*Big smartphones [426px -> 600px]*/
+  .slider {
+    height: 100%;
+    width: 100%;
+  }
+  .slider .fashion {
+    content: url("../../assets/mobile-Slider-2.png");
+  }
+  .slider .headphone {
+    content: url("../../assets/mobile-Slider-3.png");
+  }
+  .slider .tec {
+    content: url("../../assets/mobile-Slider.png");
+  }
+  .slider-text {
+    position: absolute;
+    top: 60%;
+    left: 5%;
+    transform: translateY(-50%);
+    color: #fff;
+    width: 50%;
+    margin: auto;
+  }
+
+  .slider-text p {
+    width: 90%;
+    font-size: 1rem;
+    /* display: none; */
+  }
+  .slider-text h1 {
+    width: 90%;
+    font-size: 1rem;
+    margin: 0.5rem 0;
+  }
+  .slider .slider-text .shop-now-btn {
+    background-color: #fff !important;
+    color: #c79260;
+    text-decoration: none;
+    padding: 0.5rem;
+    border-radius: 2rem;
+    font-weight: bold;
+    font-size: 0.7rem;
+    /* width: fit-content; */
+  }
+}
+@media only screen and (max-width: 425px) {
+  /*Small smartphones [325px -> 425px]*/
+  .slider {
+    /* transform: translateY(60px);  */
+    height: 100%;
+    width: 100%;
+  }
+  .slider .fashion {
+    content: url("../../assets/mobile-Slider-2.png");
+  }
+  .slider .headphone {
+    content: url("../../assets/mobile-Slider-3.png");
+  }
+  .slider .tec {
+    content: url("../../assets/mobile-Slider.png");
+  }
+  .slider-text {
+    position: absolute;
+    top: 60%;
+    left: 5%;
+    transform: translateY(-50%);
+    color: #fff;
+    width: 60%;
+    margin: auto;
+  }
+
+  .slider-text p {
+    width: 100%;
+    font-size: 0.8rem;
+    /* display: none; */
+  }
+  .slider-text h1 {
+    width: 100%;
+    font-size: 1rem;
+    margin: 0.5rem 0;
+  }
+  .slider .slider-text .shop-now-btn {
+    background-color: #fff !important;
+    color: #c79260;
+    text-decoration: none;
+    padding: 0.5rem;
+    border-radius: 2rem;
+    font-weight: bold;
+    font-size: 0.7rem;
+    /* width: fit-content; */
+  }
+}

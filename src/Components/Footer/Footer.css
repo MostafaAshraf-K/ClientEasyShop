@@ -1,0 +1,22 @@
+.footer {
+  background-color: #2a2e34;
+  color: #e9eaec;
+}
+
+.footer h5 {
+  margin-bottom: 20px;
+}
+
+.footer ul li {
+  list-style: none;
+  margin-bottom: 10px;
+}
+
+.footer-bottom {
+  background-color: #2a2e34;
+  padding: 10px 0;
+}
+
+.footer-bottom p {
+  margin-bottom: 0;
+}
